@@ -10,3 +10,9 @@ RUN apt-get update && apt-get install -y \
 git \
 && apt-get install -y zip unzip \
 && docker-php-ext-install pdo_mysql
+
+# RUN docker-php-ext-configure gd --with-jpeg
+# RUN docker-php-ext-configure gd
+# RUN docker-php-ext-install gd
+# RUN docker-php-ext-install -j$(nproc) gd
+# RUN apk add php7.4-gd
