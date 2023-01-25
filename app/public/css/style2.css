@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+/*一覧ページ*/
+
+.home_container{
+    width: 100%;
+    margin: auto;
+    padding: 1vw auto;
+}
+
+.home_search{
+    margin:3vw auto;
+    text-align: center;
+}
+
+.search_box{
+    width:25%;
+    padding:0.3vw;
+}
+
+.submit_box{
+    width:5%;
+    padding:0.3vw;
+    margin-left:0.5vw;
+}
+
+.insert{
+  width:50%;
+  text-align:right;
+  margin-left:2vw;
+}
+
+.create_go{
+  background-color:orange;
+  color:#FFF;
+  width:20%;
+}
+
+
+
+.index{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:5vw;
+    margin-left: 3vw;
+    width:100%;
+}
+
+.box{
+    width:21vw;
+    display:flex;
+    flex-direction: column;
+    margin:1vw 1vw 4vw 1vw;
+}
+
+.index_img{
+    width:20.1vw;
+    height:9vw;
+
+}
+
+td, th{
+    border: 2px #808080 solid;
+    width: 10vw;
+}
+
+/*詳細画面*/
+
+.detail_container{
+  width: 100%;
+  margin: auto;
+}
+
+.detail_upper{
+  width:60%;
+}
+
+.detail_img{
+  width:55vw;
+  height:25vw;
+  margin:6vw 0 2vw 23vw;
+}
+
+.detail_contents1{
+  width:55vw;
+  margin:3vw 0 1vw 31vw;
+  display:flex;
+}
+
+.detail_contents2{
+  width:55vw;
+  margin:2vw 0 2vw 36vw;
+  display:flex;
+}
+
+.detail_contents3{
+  width:55vw;
+  margin:2vw 0 1vw 42vw;
+  display:flex;
+}
+
+.detail_p{
+  font-size:1.5vw;
+  margin-right:5vw;
+  margin-bottom:3vw;
+  border: 2px dashed black;
+  padding:0.4vw;
+}
+
+.detail_middle{
+  width:50vw;
+  margin:2vw 0 2vw 26vw;
+  border: 2px dashed black;
+}
+
+.detail_m_p{
+  width:100%;
+  font-size:1.4vw;
+  margin-right:5vw;
+  margin-bottom:3vw;
+  border-bottom: 2px solid black;
+  padding:0.3vw;
+}
+
+.detail_m_p2{
+  font-size:1.4vw;
+  margin-right:5vw;
+  margin-bottom:5vw;
+  padding:0.3vw;
+}
+
+.detail_under{
+  width:100%;
+  margin:3vw auto;
+  display: flex;
+}
+
+.click2{
+  margin:5vw 0 5vw 28vw;
+  font-size:1.7vw;
+  background-color: orange;
+  color:#FFF;
+  text-decoration:none;
+}
+
+/*新規登録フォーム*/
+
+.form_container{
+  width: 100%;
+  margin: auto;
+}
+
+.create_form{
+  display:flex;
+  flex-direction: column;
+  width:35%;
+  margin:2vw 0 2vw 32vw;
+}
+
+.create_submit{
+  width:20%;
+  margin: 2vw 0 2vw 14vw;
+  background-color: orange;
+  color:#FFF;
+}
+
+/*編集フォーム*/
+
+.editform_container{
+  width: 100%;
+  margin: auto;
+}
+
+.edit_img{
+  width:55vw;
+  height:25vw;
+  margin:6vw 0 2vw 23vw;
+}
+
+.edit_form{
+  display:flex;
+  flex-direction: column;
+  width:35%;
+  margin:2vw 0 2vw 32vw;
+}
+
+.edit_submit{
+  width:20%;
+  margin: 2vw 0 2vw 14vw;
+  background-color: orange;
+  color:#FFF;
+}
+
+/*チャット画面*/
+
+.chat-container {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .chat-card {
+    height: 57vh;
+    overflow: auto;
+  }
+  
+  .chat-area {
+    width: 100%;
+  }
+  
+  .comment-container {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  .comment-area {
+    width: 70%;
+  }
+  
+  .comment-btn {
+    margin: 0px 10px;
+  }
+  
+  .comment-body {
+    padding: 5px 30px 20px 30px;
+  }
+  
+  .comment-body:hover {
+    background-color: #dfdfdf;
+  }
+  
+  .comment-body-user {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .comment-body-time {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #a0a0a0;
+  }
+
+/*チャット一覧*/
+
+.owner_index{
+  width: 80%;
+  margin: 5vw auto;
+}
+
+/*スタートフォーム*/
+
+.form_container{
+  width: 100%;
+  margin: auto; 
+}
+
+.partner{
+  display:flex;
+  flex-direction: column;
+  width:35%;
+  margin:12vw 0 2vw 32vw;
+}
+
+.start_submit{
+  width:30%;
+  margin: 2vw 0 2vw 12vw;
+  background-color: orange;
+  color:#FFF;
+}
+
+/*adminホーム*/
+.admin_index{
+  width: 100%;
+  margin: auto;
+}
